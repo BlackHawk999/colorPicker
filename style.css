@@ -1,47 +1,49 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.cols-wrapper {
     display: flex;
+    height: 100vh;
 }
 
 .col {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .colour__title {
-    padding: 10px;
-    color: #fff;
-    border-radius: 10px;
-    transition: all 0.3s;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .colour__title:hover {
-    background: rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .colour__btn {
-    padding: 10px;
-    font-size: 35px;
-    color: #fff;
-    background: transparent;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s;
-    outline: none;
+  padding: 10px;
+  font-size: 35px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
 }
 
 .colour__btn:hover {
-    background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
